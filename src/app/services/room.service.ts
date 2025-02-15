@@ -7,7 +7,8 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class RoomService {
-  apiUrl = 'http://localhost:3000/api';
+  // apiUrl = 'http://localhost:3000/api';
+  apiUrl = 'https://unstop-backend-beta.vercel.app/api';
 
   constructor(private http: HttpClient) {}
 
