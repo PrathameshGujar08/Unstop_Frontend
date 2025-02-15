@@ -1,0 +1,42 @@
+.container {
+    text-align: center;
+    margin-top: 1.25rem;
+}
+
+button {
+    margin: 0.3125rem;
+    padding: 0.625rem;
+    cursor: pointer;
+}
+
+.main-content {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    padding-block: 2.5rem;
+}
+
+.elevator-div {
+    background: lightgray;
+    min-height: 100%;
+    width: 20%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+
+.room {
+    width: 3.125rem;
+    height: 3.125rem;
+    margin: 0.3125rem;
+    text-align: center;
+    line-height: 3.125rem;
+    background: lightgray;
+}
+
+.booked {
+    background: red;
+    color: white;
+}
